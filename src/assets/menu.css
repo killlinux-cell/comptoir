@@ -183,4 +183,11 @@ body {
     .menu-right {
         order: 2; 
     }
+
+}
+
+@media screen and (max-width: 300px) {
+    .button-menu, .button-menu-out {
+    display: none
+  }
 }
