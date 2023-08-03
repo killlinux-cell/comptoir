@@ -124,6 +124,11 @@
         </div>
     </section>
     <!-- Plats -->
+
+    <!-- Buttons -->
+    <a href="" class="button-menu">Voir menu complet</a>
+    <a href="" class="button-menu-out">Voir menu complet</a>
+    <!-- Buttons -->
 </template>
 <script>
 

@@ -83,3 +83,51 @@ a:visited {
     transition: 0.4s;
     cursor: pointer;
 }
+
+
+.button-menu{
+	position: relative;
+	z-index: 9;
+	display: inline-block;
+	padding: 0 30px;
+	margin-left: 33%;
+	background-color: #ff7f2a;
+	border: none;
+	color: #fff;
+	font-family: var(--nav-font);
+	font-size: 13px;
+	font-size: 0.8124rem;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	line-height: 42px;
+	text-align: center;
+	transition: 0.4s ease 0s all;
+	cursor: pointer;
+	margin-bottom: 4rem;
+}
+
+.button-menu-out{
+	position: relative;
+	z-index: 9;
+	display: inline-block;
+	padding: 0 30px;
+	margin-left: 10px;
+	background-color: #000;
+	border: 2px solid #ff7f2a;
+	color: #fff;
+	font-family: var(--nav-font);
+	font-size: 13px;
+	font-size: 0.8124rem;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	line-height: 38px;
+	text-align: center;
+	transition: 0.4s ease 0s all;
+	cursor: pointer;
+}
+
+.button-menu-out:hover{
+	background-color: #ff7f2a;
+}
