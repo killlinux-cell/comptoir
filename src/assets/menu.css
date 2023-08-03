@@ -124,6 +124,7 @@ body {
 .menu-item h4 {
     font-size: 20px;
     margin: 0;
+    color: #ff6f00;
 }
 
 .menu-item p {
@@ -142,6 +143,7 @@ body {
 .entree{
     font-size: 24px;
     font-weight: 600;
+    color: #ff6f00 !important;
     border-bottom: 2px solid #ff6f00;
     position: relative;
     display: inline-block;
