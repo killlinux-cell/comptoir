@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fw-bold{
+    font-weight: bold!important;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+.text-white{
+    color: #ffffff!important;
+}
+
+.text-orange{
+    color: #ff6f00!important;
+}
+
+.menu-section-top{
+    margin-top: 40px;
+}
+
+.width-500{
+    width: 700px;
+    max-width: 100%!important;
+    margin: auto;
+}
+
+.top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-orange{
+    background-color: #ff6f00!important;
+}
+
+.hor-bar{
+ width: 60px;
+ height: 1px;
+}
+
+.mt-5{
+    margin-top: 50px;
+}
+
+.mt-2{
+    margin-top: 30px;
+}
+
+.mx-2{
+    margin: 0 30px;
+}
+
+.fs-2{
+    font-size: 40px!important;
+}
+
+
+
+.menu-section {
+    display: flex; 
+    background-color: #0F0F0F;
+    padding: 40px;
+}
+
+.menu-left {
+    flex: 1; 
+    display: flex;
+    justify-content: space-between; 
+}
+
+.menu-plat {
+    flex: 1; 
+    display: flex;
+    justify-content: space-between; 
+    overflow: hidden;
+}
+.menu-plat img {
+    max-width: 600px; 
+    max-height: 600px;
+    margin-right: 20px;
+}
+
+.scal{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.menu-plat:hover img{
+    transform: scale(1.1);
+}
+
+.menu-left img {
+    max-width: 300px; 
+    max-height: 500px;
+    margin-right: 20px; 
+}
+
+.menu-left img:nth-child(1) {
+    width: 300px; 
+    height: 400px;
+    margin-right: 20px; 
+}
+.menu-left img:nth-child(2) {
+    width: 300px; 
+    height: 500px;
+    margin-right: 20px; 
+}
+
+.menu-right {
+    flex: 1; 
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.price {
+    display: inline-block;
+    font-weight: bold;
+    color: #ff6f00;
+}
+
+
+
+.entree{
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 2px solid #ff6f00;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    font-family: var(--nav-font);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 925px) {
+.menu-section {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .menu-left {
+        order: 1;
+    }
+
+    .menu-item {
+        text-align: center; 
+    }
+
+    .menu-item img {
+        max-width: 100%; 
+        margin: 10px auto; 
+    }
+
+    .centered-h4 {
+        text-align: center; 
+    }
+
+    .entree {
+        text-align: center; 
+    }
+
+    .menu-right {
+        order: 2; 
+    }
+}
