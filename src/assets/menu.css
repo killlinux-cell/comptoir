@@ -4,7 +4,7 @@ body {
 }
 
 .fw-bold{
-    font-weight: bold!important;
+    font-weight: 500!important;
 }
 
 .text-center{
@@ -16,7 +16,7 @@ body {
 }
 
 .text-orange{
-    color: #ff6f00!important;
+    color: #e8bf62!important;
 }
 
 .menu-section-top{
@@ -36,7 +36,7 @@ body {
 }
 
 .bg-orange{
-    background-color: #ff6f00!important;
+    background-color: #e8bf62!important;
 }
 
 .hor-bar{
@@ -65,7 +65,7 @@ body {
 .menu-section {
     display: flex; 
     background-color: #0F0F0F;
-    padding: 40px;
+    padding: 40px 110px;
 }
 
 .menu-left {
@@ -97,17 +97,17 @@ body {
 }
 
 .menu-left img {
-    max-width: 300px; 
-    max-height: 500px;
     margin-right: 20px; 
 }
 
 .menu-left img:nth-child(1) {
+    max-width: 100%!important; 
     width: 300px; 
     height: 400px;
     margin-right: 20px; 
 }
 .menu-left img:nth-child(2) {
+    max-width: 100%!important; 
     width: 300px; 
     height: 500px;
     margin-right: 20px; 
@@ -119,12 +119,15 @@ body {
 
 .menu-item {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 .menu-item h4 {
     font-size: 20px;
     margin: 0;
-    color: #ff6f00;
+    color: #e8bf62;
 }
 
 .menu-item p {
@@ -134,17 +137,26 @@ body {
 
 .price {
     display: inline-block;
-    font-weight: bold;
-    color: #ff6f00;
+    font-weight: 500;
+    color: #e8bf62;
 }
 
+.text-center{
+    text-align: center!important;
+}
+.text-start{
+    text-align: left!important;
+}
+.text-end{
+    text-align: right!important;
+}
 
 
 .entree{
     font-size: 24px;
-    font-weight: 600;
-    color: #ff6f00 !important;
-    border-bottom: 2px solid #ff6f00;
+    font-weight: 500;
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff;
     position: relative;
     display: inline-block;
     margin-bottom: 0;
@@ -155,14 +167,27 @@ body {
     margin-bottom: 20px;
 }
 
+.img-mobile{
+    display: none;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 925px) {
 .menu-section {
         display: flex;
-        flex-direction: column; 
+        flex-direction: row; 
+        padding: 40px 10px;
+    }
+
+    .img-mobile{
+        display: block;
     }
 
     .menu-left {
-        order: 1;
+        display: none;
+        max-width: 100%;
     }
 
     .menu-item {
@@ -183,7 +208,7 @@ body {
     }
 
     .menu-right {
-        order: 2; 
+        max-width: 100%;
     }
 
 }

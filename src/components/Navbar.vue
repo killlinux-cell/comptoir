@@ -30,7 +30,7 @@
             </ul>
         </div>
         <div class="nav-right">
-         <a href="" class=" btn-nav">FIND A TABLE</a>
+         <!-- <a href="" class=" btn-nav">FIND A TABLE</a> -->
         </div>
         <!-- hambuger menu -->
         <div class="hamburger-menu-container" @click="openMenu">
